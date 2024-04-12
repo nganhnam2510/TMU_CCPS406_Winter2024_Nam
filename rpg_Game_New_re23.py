@@ -36,6 +36,7 @@ with open('rooms.json', 'r') as file:
 _visitedRooms = set()
 # use to store the previous room
 _previousRoom = None
+_previousRoomTemp = None
 # use to store the available items of room
 roomItems = {}
 
