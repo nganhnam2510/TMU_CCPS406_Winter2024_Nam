@@ -1,0 +1,382 @@
+[
+    {
+        "id": 1,
+        "name": "Entrance Hall",
+        "description": "You are standing in the grand entrance hall of the dungeon. Dusty chandeliers hang from the ceiling, and a thick layer of dust covers the marble floor. The wooden door in the west lead to Inferno Chamber.",
+        "description_short": "The wooden door in the west lead to Inferno Chamber.",
+        "exits": [
+            {
+                "direction": "West",
+                "room_id": 2
+            }
+        ],
+        "items": [
+            {
+                "name": "Health Potion"
+            },
+            {
+                "name": "helm"
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Ghost"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Inferno Chamber",
+        "description": "You find yourself in the heart of the Inferno Chamber, surrounded by walls pulsating with intense waves of heat, while tattered tapestries line the walls, and the floor is strewn with debris, all amidst the scorching trials that lie ahead. The door in the East to the Entrance Hall, the stony door in the north open to Space of Magical Clues.",
+        "description_short": "The door in the East to the Entrance Hall, the stony door in the north open to Space of Magical Clues.",
+        "exits": [
+                {
+                "direction": "East",
+                "room_id": 1
+                 }
+                ,{
+                    "direction": "North",
+                    "room_id": 3
+                }
+        ],
+        "items": [
+            {
+                "name": "Mana Potion"
+            },
+            {
+                "name": "Health Potion"
+            },
+            {
+                "name": "boot"
+            },
+            {
+                "name": "Mace"
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Skeleton"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Space of Magical Clues",
+        "description": "You have entered the In the Space of Magical Clues where mysteries brew and hints imbue, the journey unfolds with magic anew. The door in the South leads to the Inferno Chamber, the big door in the north opens to the Space of Frostbite Vault.",
+        "description_short": "The door in the South leads to the Inferno Chamber, the big door in the north opens to the Space of Frostbite Vault.",
+        "exits": [
+            {
+                "direction": "South",
+                "room_id": 2
+            },
+            {
+                "direction": "North",
+                "room_id": 4
+            }
+        ],
+        "items": [
+            {
+                "name": "Health Potion"
+            },
+            {
+                "name": "glove"
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Zombie",
+                "health": 50,
+                "attacks": [
+                    {
+                        "type": "slash",
+                        "damage": 10,
+                        "description": "The skeleton slashes at you with its rusty sword."
+                    }
+                ],
+                "resistance": 5
+            }
+        ]
+    }
+    ,
+    {
+        "id": 4,
+        "name": "Frostbite Vault",
+        "description": "You step into the Frostbite Chamber, greeted by a bone-chilling cold that seeps into your very bones, where icy stalactites hang from the ceiling like frozen spears, and the floor is a mosaic of glittering frost. Amidst this frozen domain, you can't help but wonder - Why don't skeletons fight each other? They don't have the guts!. The door in the East to the Treasure Room, the big door in the West open to Space of The old Beduin.",
+        "description_short": "The door in the East to the Treasure Room, the big door in the West open to Space of The old Beduin.",
+        "exits": [
+                {
+                "direction": "South",
+                "room_id": 3
+                 }
+                ,{
+                    "direction": "West",
+                    "room_id": 6
+                },
+                {
+                    "direction": "East",
+                    "room_id": 5
+                }
+        ],
+        "items": [
+            {
+                "name": "Health Potion"
+            },
+            {
+                "name": "pant"
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Ogre"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Treasure Vault",
+        "description": "You have entered the treasure room. Shimmering piles of gold and jewels fill the room, tempting you with their glinting allure. The big door in the West open to Frostbite Vault.",
+        "description_short": "The big door in the West open to Frostbite Vault.",
+        "exits": [
+                {
+
+                    "direction": "West",
+                    "room_id": 4
+                }
+        ],
+        "items": [
+            {
+                "name": "Health Potion"
+            },
+            {
+                "name": "armor"
+            }
+
+        ],
+        "monsters": [
+            {
+                "name": "Skeleton"
+            }
+        ]
+    },
+        {
+        "id": 6,
+        "name": "The old Beduin",
+        "description": "You have entered into the Old Bedouin Room, where time seems to stand still amidst the sand-weathered walls. The air carries a faint scent of spices and sandalwood, evoking memories of nomadic journeys across endless dunes, while the flickering light of oil lamps casts dancing shadows, weaving stories of generations past. The big door in the West open to Aqueous, the South gate to Final Boss Chamber, the East door to Frostbite Vault.",
+        "description_short": "The big door in the West open to Aqueous, the South gate to Final Boss Chamber, the East door to Frostbite Vault.",
+        "exits": [
+                {
+
+                    "direction": "West",
+                    "room_id": 10
+                },
+                {
+
+                    "direction": "South",
+                    "room_id": 7
+                },
+                {
+                    "direction": "East",
+                    "room_id": 4
+                }
+        ],
+        "items": [
+            {
+                "name": "Magic Wand"
+            },
+            {
+                "name": "Health Potion"
+            },
+            {
+                "name": "belt"
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Ogre"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Final Boss fight",
+        "description": "You're in a darkroom where evil awaits...",
+        "description_short": "The North door in the West open to The old Beduin, the South gate to Granny Shiba.",
+        "exits": [
+                {
+                    "direction": "North",
+                    "room_id": 6
+                },
+                {
+                    "direction": "South",
+                    "room_id": 8
+                }
+        ],
+        "items": [
+            {
+                "name": "Health Potion"
+            }
+        ],
+    "monsters": [
+        {
+            "name": "Zombie Lord",
+            "type": "undead",
+            "level": "boss",
+            "weakness": "Fire",
+            "health": 500,
+            "attacks": [
+                {
+                    "type": "melee",
+                    "damage": 120,
+                    "description": "The Zombie Lord delivers a powerful melee strike"
+                }
+
+            ],
+            "resistance": 10
+        }
+    ]
+    },
+    {
+        "id": 8,
+        "name": "Granny Shiba and the vicory card",
+        "description": "You have entered into Granny Shiba's Victory Card Emporium where every card whispers tales of triumph and joy amidst the scent of freshly brewed tea. The North door in the West open to The Final Boss Chamber, the West gate to Arcane Exhange Shop.",
+        "description_short": "The North door open to The Final Boss Chamber, the West gate to Arcane Exhange Shop.",
+        "exits": [
+                {
+                    "direction": "North",
+                    "room_id": 7
+                },
+                {
+                    "direction": "West",
+                    "room_id": 9
+                }
+        ],
+        "items": [
+            {
+                "name": "Health Potion"
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Skeleton Ranger"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Arcane Exchange Shop",
+        "description": "You have entered into the Arcane Exchange Center where the air crackles with magical energy and shelves are lined with mysterious artifacts from distant realms.",
+        "description_short": "The East door in the West open to The Granny Shiba, the North gate to Aquerous room, the West gate to The Cave.",
+        "exits": [
+                {
+                    "direction": "East",
+                    "room_id": 8
+                },
+                {
+                    "direction": "North",
+                    "room_id": 10
+                },
+                {
+                    "direction": "West",
+                    "room_id": 12
+                }
+        ],
+        "items": [
+            {
+                "name": "Health Potion"
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Skeleton"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Aqueous Heaven",
+        "description": "You have entered Aqueous Haven where tranquil waters embrace weary travelers, offering solace amidst shimmering reflections.",
+        "description_short": "The East door in the The old Beduin, the North gate to Ignition Nexus room, the South gate to The Arcane Exchange Shop.",
+        "exits": [
+                {
+                    "direction": "North",
+                    "room_id": 11
+                },
+                {
+                    "direction": "South",
+                    "room_id": 9
+                },
+                {
+                    "direction": "East",
+                    "room_id": 6
+                }
+        ],
+        "items": [
+            {
+                "name": "Health Potion"
+            },
+            {
+                "name": "ring"
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Skeleton Ranger"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Ignition Nexus",
+        "description": "You have entered Nexus Ignition, where shadows flee, a torch ignites, guiding destiny's decree.",
+        "description_short": "The West gate to The Cave, the South gate to The Aqueous.",
+        "exits": [
+                {
+                    "direction": "West",
+                    "room_id": 12
+                },
+                {
+                    "direction": "South",
+                    "room_id": 10
+                }
+        ],
+        "items": [
+            {
+                "name": "Health Potion"
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Ghost"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "The Cave",
+        "description": "You have entered the cave, where darkness reigns and echoes whisper tales of the earth's embrace, as stalactites hang like chandeliers of time, illuminating the path to mysteries untold.",
+        "description_short": "The East gate to The Ignition Nexus, the South gate to The Arcane Exhange Shop.",
+        "exits": [
+                {
+                    "direction": "South",
+                    "room_id": 9
+                },
+                {
+                    "direction": "East",
+                    "room_id": 11
+                }
+        ],
+        "items": [
+            {
+                "name": "Health Potion"
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Ogre"
+            }
+        ]
+    }
+
+]
+
+

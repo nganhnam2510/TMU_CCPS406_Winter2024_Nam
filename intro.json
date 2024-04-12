@@ -1,0 +1,77 @@
+[
+    {
+      "state": 1,
+      "description": "Player: . . . whistling . . . . . . . ."
+    },
+    {
+        "state": 2,
+        "description": "Sickama: Greeting warrior! Welcome to our land."
+    },
+    {
+        "state": 3,
+        "description": "Player: Oh, a Dodge Dragon spirit. I am a knight; I spent my time exploring the world."
+    },
+    {
+        "state": 4,
+        "description": "Player: This valley looks very beautiful, but I can feel the pain and sorrow from the trees, forest, and in the wind. Can you give me some hints about your countryside, little Dragon?"
+    },
+    {
+        "state": 5,
+        "description": "Sickama: I am the guardian of this forest and land. We used to have a very beautiful valley. However, a massive and bloody army of darkness had invaded us. They occupied the underground maze and terrorized every innocent person and animal on the ground."
+    },
+    {
+        "state": 6,
+        "description": "Sickama: We could not resist, so every person and animal had to flee for their lives."
+    },
+    {
+        "state": 7,
+        "description": "Sickama: Can you help us?!!!"
+    },
+    {
+        "state": 8,
+        "description": "Player: Of course. Helping people is the purpose of the journey. I had defeated many bad gangs and pirates in my adventure."
+    },
+    {
+        "state": 9,
+        "description": "Player: Can you tell me something about the darkness armies?"
+    },
+    {
+        "state": 10,
+        "description": "Sickama: They are very powerful monsters. They occupied every room and treasure in the maze."
+    },
+    {
+        "state": 11,
+        "description": "Sickama: You have to defeat monsters to get the better defense and items in each room."
+    },
+    {
+        "state": 12,
+        "description": "Sickama: every floor has a massive and extremely powerful boss. You have to be careful."
+    },
+    {
+        "state": 13,
+        "description": "Sickama: Hundred warriors and knights had come, fought, and tried to purge the maze."
+    },
+    {
+        "state": 14,
+        "description": "Sickama: But only one of them can come back badly injured. On the last breath, he reveals that the monster bosses are in semi-God form. All of their weapons and magic could not hurt them."
+    },
+    {
+        "state": 15,
+        "description": "Sickama: He saw a bright and magnificent fountain in the maze. The last knight advises me to bring the new coming knight and warriors to this room. It could be useful."
+    },
+    {
+        "state": 16,
+        "description": "Sickama: After that he passed away."
+    },
+    {
+        "state": 17,
+        "description": "Player: I feel very interested in this adventure now. Now Let's explore the underground maze."
+    },
+    {
+        "state": 18,
+        "description": "Sickama: Warrior! I give you this sword. We can enter their dungeon now. Follow me!"
+    }
+  ]
+  
+
+

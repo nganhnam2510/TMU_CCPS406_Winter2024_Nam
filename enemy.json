@@ -1,0 +1,178 @@
+[
+    {
+        "name": "Zombie Lord",
+        "type": "undead",
+        "level": "boss",
+	"weakness": "Fire",
+        "health": 300,
+        "attacks": [
+            {
+                "type": "melee",
+                "damage": 30,
+                "description": "The Zombie Lord delivers a powerful melee strike."
+            },
+            {
+                "type": "summon",
+                "description": "The Zombie Lord summons undead minions to aid in battle."
+            }
+        ],
+        "resistance": 0.7
+    },
+    {
+        "name": "Prime Ghost",
+        "type": "undead",
+        "level": "boss",
+	"weakness": "Lightning",
+        "health": 250,
+        "attacks": [
+            {
+                "type": "magical",
+                "damage": 35,
+                "description": "The Prime Ghost casts a powerful magical spell."
+            },
+            {
+                "type": "possession",
+                "description": "The Prime Ghost attempts to possess a target, temporarily taking control of them."
+            }
+        ],
+        "resistance": 0.4
+    },
+    {
+        "name": "Skeleton King",
+        "type": "undead",
+        "level": "boss",
+	"weakness": "Lightning",
+        "health": 350,
+        "attacks": [
+            {
+                "type": "melee",
+                "damage": 40,
+                "description": "The Skeleton King swings his mighty sword."
+            },
+            {
+                "type": "summon",
+                "description": "The Skeleton King raises fallen skeletons to fight for him."
+            }
+        ],
+        "resistance": 0.8
+    },
+    {
+        "name": "Twin Head Ogre",
+        "type": "beast",
+        "level": "boss",
+	"weakness": "Ice",
+        "health": 400,
+        "attacks": [
+            {
+                "type": "melee",
+                "damage": 45,
+                "description": "The Twin Head Ogre attacks with both heads, dealing massive damage."
+            },
+            {
+                "type": "stomp",
+                "description": "The Twin Head Ogre stomps the ground, causing shockwaves."
+            }
+        ],
+        "resistance": 1.2
+    },
+    {
+        "name": "Chimera",
+        "type": "beast",
+        "level": "boss",
+	"weakness": "Physical",
+        "health": 300,
+        "attacks": [
+            {
+                "type": "ranged",
+                "damage": 35,
+                "description": "The Chimera spits a stream of venomous acid."
+            },
+            {
+                "type": "melee",
+                "damage": 30,
+                "description": "The Chimera claws at its target with razor-sharp talons."
+            }
+        ],
+        "resistance": 1.0
+    },
+    {
+        "name": "Zombie",
+        "type": "undead",
+        "level": "normal",
+	"weakness": "Fire",
+        "health": 80,
+        "attacks": [
+            {
+                "type": "melee",
+                "damage": 10,
+                "description": "The zombie swipes with its rotting claws."
+            }
+        ],
+        "resistance": 0.8
+    },
+    {
+        "name": "Ghost",
+        "type": "undead",
+        "level": "normal",
+	"weakness": "Lightning",
+        "health": 50,
+        "attacks": [
+            {
+                "type": "magical",
+                "damage": 15,
+                "description": "The ghost haunts its target."
+            }
+        ],
+        "resistance": 0.5
+    },
+    {
+        "name": "Skeleton",
+        "type": "undead",
+        "level": "normal",
+	"weakness": "Physical",
+        "health": 60,
+        "attacks": [
+            {
+                "type": "ranged",
+                "damage": 12,
+                "description": "The skeleton throws a bone projectile."
+            }
+        ],
+        "resistance": 0.8
+    },
+    {
+        "name": "Ogre",
+        "type": "beast",
+        "level": "normal",
+	"weakness": "Ice",
+        "health": 120,
+        "attacks": [
+            {
+                "type": "melee",
+                "damage": 20,
+                "description": "The ogre swings its club."
+            }
+        ],
+        "resistance": 1.0
+    },
+    {
+        "name": "Skeleton Ranger",
+        "type": "undead",
+        "level": "normal",
+	"weakness": "Physical",
+        "health": 70,
+        "attacks": [
+            {
+                "type": "ranged",
+                "damage": 15,
+                "description": "The skeleton ranger shoots an arrow."
+            }
+        ],
+        "resistance": 0.8
+    }
+
+]
+  
+
+
+

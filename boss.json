@@ -1,0 +1,103 @@
+[
+    {
+        "name": "Zombie Lord",
+        "type": "undead",
+        "level": "boss",
+	"weakness": "Fire",
+        "health": 300,
+        "attacks": [
+            {
+                "type": "melee",
+                "damage": 30,
+                "description": "The Zombie Lord delivers a powerful melee strike."
+            },
+            {
+                "type": "summon",
+                "description": "The Zombie Lord summons undead minions to aid in battle."
+            }
+        ],
+        "resistance": 0.7
+    },
+    {
+        "name": "Prime Ghost",
+        "type": "undead",
+        "level": "boss",
+	"weakness": "Lightning",
+        "health": 250,
+        "attacks": [
+            {
+                "type": "magical",
+                "damage": 35,
+                "description": "The Prime Ghost casts a powerful magical spell."
+            },
+            {
+                "type": "possession",
+                "description": "The Prime Ghost attempts to possess a target, temporarily taking control of them."
+            }
+        ],
+        "resistance": 0.4
+    },
+    {
+        "name": "Skeleton King",
+        "type": "undead",
+        "level": "boss",
+	"weakness": "Lightning",
+        "health": 350,
+        "attacks": [
+            {
+                "type": "melee",
+                "damage": 40,
+                "description": "The Skeleton King swings his mighty sword."
+            },
+            {
+                "type": "summon",
+                "description": "The Skeleton King raises fallen skeletons to fight for him."
+            }
+        ],
+        "resistance": 0.8
+    },
+    {
+        "name": "Twin Head Ogre",
+        "type": "beast",
+        "level": "boss",
+	"weakness": "Ice",
+        "health": 400,
+        "attacks": [
+            {
+                "type": "melee",
+                "damage": 45,
+                "description": "The Twin Head Ogre attacks with both heads, dealing massive damage."
+            },
+            {
+                "type": "stomp",
+                "description": "The Twin Head Ogre stomps the ground, causing shockwaves."
+            }
+        ],
+        "resistance": 1.2
+    },
+    {
+        "name": "Chimera",
+        "type": "beast",
+        "level": "boss",
+	"weakness": "Physical",
+        "health": 300,
+        "attacks": [
+            {
+                "type": "ranged",
+                "damage": 35,
+                "description": "The Chimera spits a stream of venomous acid."
+            },
+            {
+                "type": "melee",
+                "damage": 30,
+                "description": "The Chimera claws at its target with razor-sharp talons."
+            }
+        ],
+        "resistance": 1.0
+    }
+    
+]
+  
+
+
+

@@ -1,0 +1,79 @@
+[
+    {
+      "name": "Health Potion",
+      "type": "consumable",
+      "health_restore": 50,
+      "description": "A small vial containing a red liquid. Restores 50 health points."
+  },
+  {
+      "name": "Mana Potion",
+      "type": "consumable",
+      "mana_restore": 30,
+      "description": "Restores 30 mana points."
+  },
+  {
+      "name": "Sword",
+      "type": "weapon",
+      "damage": 100,
+      "description": "A basic sword that deals 120 damage."
+  },
+  {
+      "name": "Magic Wand",
+      "type": "weapon",
+      "damage": 140,
+      "description": "A wand that casts magical spells, dealing 150 magical damage."
+  },
+  {
+      "name": "Mace",
+      "type": "weapon",
+      "damage": 120,
+      "description": "A heavy mace that deals 140 damage."
+  },
+  {
+      "name": "armor",
+      "type": "armor",
+      "defense": 5,
+      "description": "Provides 5 defense points."
+  },
+  {
+      "name": "helm",
+      "type": "armor",
+      "defense": 4,
+      "description": "Provides 4 defense points."
+  },
+  {
+      "name": "pant",
+      "type": "armor",
+      "defense": 4,
+      "description": "Provides 4 defense points."
+  },
+  {
+      "name": "glove",
+      "type": "armor",
+      "defense": 2,
+      "description": "Provides 2 defense points."
+  },
+  {
+      "name": "boot",
+      "type": "armor",
+      "defense": 2,
+      "description": "Provides 2 defense points."
+  },
+  {
+      "name": "belt",
+      "type": "armor",
+      "defense": 2,
+      "description": "Provides 2 defense points."
+  }
+  ,
+  {
+      "name": "ring",
+      "type": "armor",
+      "defense": 1,
+      "description": "The holy Ring of the Valley with powerful magic power."
+  }
+]
+  
+
+
+

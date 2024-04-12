@@ -1,0 +1,16 @@
+[
+    {   
+        "name": "Player",
+        "class": "Warrior",
+        "level": 5,
+        "experience": 0,
+        "health": 100,
+        "strength": 10,
+        "dexterity": 8,
+        "intelligence": 6
+    }
+]
+  
+
+
+
